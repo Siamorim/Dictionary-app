@@ -1,12 +1,13 @@
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Dictionary from "./Dictionary.js";
-import logo from "./booksmall.png";
+import logo from "./booklightcolor.png";
 
 function App() {
   return (
     <div className="App">
       <div className="container">
-        <img src={logo} alt="Woman and books" className="logo" />
+        <img src={logo} alt="Woman and books" className="img-fluid logo" />
         <div className="App-header">Dictionary</div>
         <Dictionary />
       </div>

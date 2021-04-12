@@ -16,6 +16,7 @@
   max-width: 200px;
   display: block;
   margin: 0 auto;
+  border-radius: 10px;
 }
 
 .code {
@@ -36,14 +37,36 @@ a {
   color: #7852d4;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 300px) {
   .container {
-    max-width: 720px;
+    max-width: 270px;
+  }
+}
+
+@media (max-width: 300px) {
+  .App-header {
+    font-size: 30px;
+    margin: auto 10px 15px;
+  }
+  .Dictionary input {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 400px) {
+  .container {
+    max-width: 370px;
   }
 }
 
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
   }
 }

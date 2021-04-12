@@ -12,7 +12,16 @@
   max-width: 700px;
 }
 
+@media (min-width: 800px) {
+  .Dictionary section {
+    max-width: 800px;
+  }
+}
+
 .Dictionary input {
   width: 100%;
   padding: 6px 4px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  color: #333;
 }
