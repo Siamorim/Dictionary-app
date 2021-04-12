@@ -12,3 +12,14 @@
   text-align: center;
   margin: 30px 0;
 }
+
+.App {
+  background-image: url("./images/book.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: auto;
+  margin-bottom: 20px;
+  height: 900px;
+  background-clip: border-box;
+  background-attachment: fixed;
+}
