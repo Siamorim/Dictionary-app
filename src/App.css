@@ -1,25 +1,49 @@
 .App-header {
-  margin: 30px 0;
+  margin: 20px 0;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
 }
 
-.App-logo {
+.App {
+  padding: 60px 0 100px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.logo {
   max-width: 200px;
   display: block;
   margin: 0 auto;
 }
 
-.App-footer {
+.code {
   text-align: center;
-  margin: 30px 0;
+  margin-top: 20px;
+  font-size: 10px;
 }
 
-.App {
-  background-image: url("./images/book.jpg");
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-size: auto;
-  margin-bottom: 20px;
-  height: 900px;
-  background-clip: border-box;
-  background-attachment: fixed;
+.container {
+  background-color: #e2e1f9;
+  background-size: cover;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  padding: 5px 20px 20px 20px;
+}
+
+a {
+  color: #7852d4;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
 }
