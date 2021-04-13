@@ -9,7 +9,7 @@ function App() {
       <div className="container">
         <img src={logo} alt="Woman and books" className="img-fluid logo" />
         <div className="App-header">Dictionary</div>
-        <Dictionary />
+        <Dictionary defaultKeyword="wine" />
       </div>
       <footer className="code">
         <span>This project was coded by </span>

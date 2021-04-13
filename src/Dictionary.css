@@ -3,19 +3,19 @@
   max-width: 960px;
 }
 
+.Dictionary h1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
 .Dictionary section {
   background-color: white;
   border-radius: 16px;
   margin-bottom: 15px;
-  box-shadow: 1px 1px 1px white;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 10%);
   padding: 15px;
   max-width: 700px;
-}
-
-@media (min-width: 800px) {
-  .Dictionary section {
-    max-width: 800px;
-  }
 }
 
 .Dictionary input {
@@ -24,4 +24,22 @@
   border: 1px solid #ddd;
   border-radius: 6px;
   color: #333;
+}
+
+.hint {
+  text-align: left;
+  font-size: 12px;
+  margin-top: 3px;
+}
+
+@media (max-width: 400px) {
+  .hint {
+    font-size: 8px;
+  }
+  .Dictionary h1 {
+    font-size: 13px;
+  }
+  .Results h2 {
+    font-size: 24px;
+  }
 }
