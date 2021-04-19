@@ -37,9 +37,25 @@ a {
   color: #7852d4;
 }
 
-@media (min-width: 300px) {
+@media (max-width: 200px) {
   .container {
-    max-width: 300px;
+    max-width: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .App-header {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 200px) {
+  .container {
+    max-width: 240px;
+  }
+
+  .App-header {
+    font-size: 28px;
   }
 
   .code {
@@ -47,14 +63,11 @@ a {
   }
 }
 
-@media (max-width: 300px) {
-  .App-header {
-    font-size: 30px;
-    margin: auto 10px 15px;
+@media (min-width: 300px) {
+  .container {
+    max-width: 300px;
   }
-  .Dictionary input {
-    font-size: 15px;
-  }
+
   .code {
     font-size: 6px;
   }

@@ -22,3 +22,13 @@
   opacity: 0.7;
   font-weight: bold;
 }
+
+@media (max-width: 300px) {
+  .Phonetics a {
+    font-size: 13px;
+  }
+
+  .Phonetics text {
+    font-size: 10px;
+  }
+}
