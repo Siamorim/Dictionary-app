@@ -39,7 +39,7 @@ a {
 
 @media (min-width: 300px) {
   .container {
-    max-width: 295px;
+    max-width: 300px;
   }
 
   .code {
