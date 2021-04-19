@@ -70,9 +70,19 @@ a {
   }
 }
 
+@media (min-width: 500px) {
+  .container {
+    max-width: 470px;
+  }
+
+  .code {
+    font-size: 8px;
+  }
+}
+
 @media (min-width: 576px) {
   .container {
-    max-width: 540px;
+    max-width: 560px;
   }
   .code {
     font-size: 11px;
