@@ -39,7 +39,7 @@ a {
 
 @media (min-width: 300px) {
   .container {
-    max-width: 270px;
+    max-width: 295px;
   }
 
   .code {
@@ -97,6 +97,6 @@ a {
 
 @media (max-width: 400px) {
   .App {
-    padding: 8px 8px;
+    padding: 5px 3px;
   }
 }
